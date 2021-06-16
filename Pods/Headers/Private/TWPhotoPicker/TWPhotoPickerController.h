@@ -1,1 +1,0 @@
-../../../TWPhotoPicker/InstagramPhotoPicker/TWPhotoPickerController.h

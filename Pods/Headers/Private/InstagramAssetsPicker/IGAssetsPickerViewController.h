@@ -1,1 +1,0 @@
-../../../InstagramAssetsPicker/Pod/Classes/IGAssetsPickerViewController.h

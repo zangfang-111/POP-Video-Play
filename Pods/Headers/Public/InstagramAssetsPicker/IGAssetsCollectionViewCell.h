@@ -1,0 +1,1 @@
+../../../InstagramAssetsPicker/Pod/Classes/IGAssetsCollectionViewCell.h

@@ -1,0 +1,32 @@
+PODS:
+  - Branch (0.20.2):
+    - Branch/Core (= 0.20.2)
+  - Branch/Core (0.20.2)
+  - BranchInvite (0.3.11):
+    - Branch
+    - HMSegmentedControl (~> 1.5.2)
+  - GPUImage (0.1.7)
+  - HMSegmentedControl (1.5.4)
+  - InstagramAssetsPicker (0.1.1):
+    - GPUImage (~> 0.1.6)
+  - MBProgressHUD (1.0.0)
+  - TWPhotoPicker (1.0.0)
+
+DEPENDENCIES:
+  - BranchInvite
+  - InstagramAssetsPicker
+  - MBProgressHUD
+  - TWPhotoPicker (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  Branch: 307446a687231526f60eef0f12407ca4ed177c32
+  BranchInvite: 224a37638dc651dc497becfc599095f1dc2a081b
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  HMSegmentedControl: b25bc4ec44766e073d62c473188fb354ee244b76
+  InstagramAssetsPicker: a7ab6f928e7ce8ffff6635ee8e1eae2cf1b70086
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  TWPhotoPicker: 5e9bcd6097e8602e8243d1bdd54a5cf1afbedcf2
+
+PODFILE CHECKSUM: b4ac51a6c08c7c0de88e9de7af5738aefd0a24fd
+
+COCOAPODS: 1.3.1

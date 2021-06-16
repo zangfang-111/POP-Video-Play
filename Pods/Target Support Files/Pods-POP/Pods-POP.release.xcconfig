@@ -1,0 +1,10 @@
+CLANG_MODULES_AUTOLINK = YES
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Branch" "${PODS_ROOT}/Headers/Public/BranchInvite" "${PODS_ROOT}/Headers/Public/GPUImage" "${PODS_ROOT}/Headers/Public/HMSegmentedControl" "${PODS_ROOT}/Headers/Public/InstagramAssetsPicker" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/TWPhotoPicker"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Branch" "$PODS_CONFIGURATION_BUILD_DIR/BranchInvite" "$PODS_CONFIGURATION_BUILD_DIR/GPUImage" "$PODS_CONFIGURATION_BUILD_DIR/HMSegmentedControl" "$PODS_CONFIGURATION_BUILD_DIR/InstagramAssetsPicker" "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD" "$PODS_CONFIGURATION_BUILD_DIR/TWPhotoPicker"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Branch" -isystem "${PODS_ROOT}/Headers/Public/BranchInvite" -isystem "${PODS_ROOT}/Headers/Public/GPUImage" -isystem "${PODS_ROOT}/Headers/Public/HMSegmentedControl" -isystem "${PODS_ROOT}/Headers/Public/InstagramAssetsPicker" -isystem "${PODS_ROOT}/Headers/Public/MBProgressHUD" -isystem "${PODS_ROOT}/Headers/Public/TWPhotoPicker"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Branch" -l"BranchInvite" -l"GPUImage" -l"HMSegmentedControl" -l"InstagramAssetsPicker" -l"MBProgressHUD" -l"TWPhotoPicker" -framework "AVFoundation" -framework "AdSupport" -framework "CoreGraphics" -framework "CoreMedia" -framework "Foundation" -framework "MessageUI" -framework "MobileCoreServices" -framework "OpenGLES" -framework "QuartzCore" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
